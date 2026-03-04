@@ -1337,6 +1337,9 @@ video {
 .pt-6 {
   padding-top: 1.5rem;
 }
+.pt-3 {
+  padding-top: 0.75rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1881,6 +1884,9 @@ a, button, input, select, textarea {
 .hover\:bg-yellow-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-red-500\/10:hover {
+  background-color: rgb(239 68 68 / 0.1);
 }
 .hover\:from-amber-400:hover {
   --tw-gradient-from: #fbbf24 var(--tw-gradient-from-position);
