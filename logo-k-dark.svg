@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Navy gradients -->
+    <linearGradient id="navyMain" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A5578"/>
+      <stop offset="40%" stop-color="#2A3F5F"/>
+      <stop offset="100%" stop-color="#1E3050"/>
+    </linearGradient>
+    <linearGradient id="navyRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3050"/>
+      <stop offset="100%" stop-color="#162540"/>
+    </linearGradient>
+    <linearGradient id="navyTopV" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#2A3F5F"/>
+      <stop offset="100%" stop-color="#4A6A8A"/>
+    </linearGradient>
+    <linearGradient id="navyBotV" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#1E3050"/>
+      <stop offset="100%" stop-color="#0F1B2E"/>
+    </linearGradient>
+    <!-- Gold gradients for facets -->
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E5A0"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C84A"/>
+      <stop offset="100%" stop-color="#BEA056"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9A7B25"/>
+      <stop offset="100%" stop-color="#C9A030"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#B89530"/>
+      <stop offset="100%" stop-color="#8B7025"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#F0D878"/>
+      <stop offset="100%" stop-color="#E0C050"/>
+    </linearGradient>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C49A2A"/>
+      <stop offset="100%" stop-color="#8A6A18"/>
+    </linearGradient>
+    <linearGradient id="g7" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#F5E8A5"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <linearGradient id="g8" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#BEA056"/>
+      <stop offset="100%" stop-color="#9A7B25"/>
+    </linearGradient>
+    <linearGradient id="g9" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0D878"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A88A20"/>
+    </linearGradient>
+    <linearGradient id="g10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D060"/>
+      <stop offset="100%" stop-color="#C49A2A"/>
+    </linearGradient>
+    <linearGradient id="goldEdge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#C49A2A"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- === NAVY VERTICAL BAR === -->
+  <!-- Left face -->
+  <polygon points="115,70 152,70 152,442 115,442" fill="url(#navyMain)"/>
+  <!-- Right face (darker) -->
+  <polygon points="152,70 175,70 175,442 152,442" fill="url(#navyRight)"/>
+  <!-- Top chevron - left -->
+  <polygon points="115,70 145,38 152,70" fill="url(#navyTopV)"/>
+  <!-- Top chevron - right -->
+  <polygon points="152,70 145,38 175,70" fill="#3A5578"/>
+  <!-- Bottom chevron - left -->
+  <polygon points="115,442 145,474 152,442" fill="url(#navyBotV)"/>
+  <!-- Bottom chevron - right -->
+  <polygon points="152,442 145,474 175,442" fill="#0F1B2E"/>
+  <!-- Center ridge highlight -->
+  <line x1="152" y1="70" x2="152" y2="442" stroke="#4A6A8A" stroke-width="1.2" opacity="0.5"/>
+  <!-- Left edge gold accent -->
+  <line x1="115" y1="72" x2="115" y2="440" stroke="#D4AF37" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- === UPPER GOLD BRANCH (going top-right) === -->
+  <!-- Main large facet - bright -->
+  <polygon points="175,230 175,185 310,82 335,95" fill="url(#g1)"/>
+  <!-- Upper edge facet - very bright highlight -->
+  <polygon points="175,185 310,82 340,62 200,165" fill="url(#g7)"/>
+  <!-- Lower edge facet - mid gold -->
+  <polygon points="175,230 335,95 360,112 195,248" fill="url(#g2)"/>
+  <!-- Tip upper triangle - bright -->
+  <polygon points="310,82 340,62 395,80" fill="url(#g5)"/>
+  <!-- Tip main face -->
+  <polygon points="310,82 395,80 370,108 335,95" fill="url(#g1)"/>
+  <!-- Tip lower triangle - darker -->
+  <polygon points="335,95 370,108 360,112" fill="url(#g6)"/>
+  <!-- Internal facet division 1 -->
+  <polygon points="175,205 250,155 280,140 200,185" fill="url(#g9)"/>
+  <!-- Internal facet near junction -->
+  <polygon points="175,230 175,205 200,218" fill="url(#g3)"/>
+
+  <!-- === JUNCTION AREA (where branches cross) === -->
+  <!-- Center diamond - bright -->
+  <polygon points="175,230 195,248 185,260 175,256" fill="url(#g5)"/>
+  <!-- Center lower transition -->
+  <polygon points="175,256 185,260 195,270 175,282" fill="url(#g4)"/>
+
+  <!-- === LOWER GOLD BRANCH (going bottom-right) === -->
+  <!-- Main large facet - rich gold -->
+  <polygon points="175,282 175,325 320,432 345,418" fill="url(#g2)"/>
+  <!-- Upper edge facet - mid gold -->
+  <polygon points="175,282 345,418 365,398 195,270" fill="url(#g10)"/>
+  <!-- Lower edge facet - bright highlight -->
+  <polygon points="175,325 320,432 340,452 195,340" fill="url(#g5)"/>
+  <!-- Tip main face - bright -->
+  <polygon points="320,432 345,418 405,435" fill="url(#g1)"/>
+  <!-- Tip lower triangle -->
+  <polygon points="320,432 405,435 380,455 340,452" fill="url(#g7)"/>
+  <!-- Tip upper darker facet -->
+  <polygon points="345,418 405,435 365,398" fill="url(#g6)"/>
+  <!-- Internal facet division 1 -->
+  <polygon points="195,270 260,330 290,350 215,290" fill="url(#g9)"/>
+  <!-- Internal facet lower -->
+  <polygon points="175,310 250,370 275,390 195,330" fill="url(#g4)"/>
+  <!-- Deep shadow facet near junction -->
+  <polygon points="175,282 195,270 185,260 175,268" fill="url(#g3)"/>
+
+  <!-- === SUBTLE EDGE HIGHLIGHTS === -->
+  <line x1="175" y1="185" x2="340" y2="62" stroke="#F5E8B0" stroke-width="0.8" opacity="0.5"/>
+  <line x1="175" y1="325" x2="340" y2="452" stroke="#F5E8B0" stroke-width="0.8" opacity="0.4"/>
+  <line x1="175" y1="230" x2="360" y2="112" stroke="#C49A2A" stroke-width="0.6" opacity="0.3"/>
+  <line x1="175" y1="282" x2="365" y2="398" stroke="#C49A2A" stroke-width="0.6" opacity="0.3"/>
+</svg>
